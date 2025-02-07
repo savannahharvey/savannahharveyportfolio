@@ -36,5 +36,19 @@ body {
 header {
     font-family: var(--heading-font), serif;
     font-weight: 200;
+    background-color: #b0ccc0;
+    height: 100vh;
 }
 
+.grid_system {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two equal width columns */
+}
+
+.main_pic {
+  grid-column: 1; /* Place first item in the first column */
+}
+
+.intro {
+  grid-column: 2; /* Place second item in the second column */ 
+}
